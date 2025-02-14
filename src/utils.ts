@@ -62,7 +62,7 @@ async function formatAndSave(input: string, destination: string) {
     options.parser = info.inferredParser as prettier.Options['parser'];
   }
 
-  const output = prettier.format(input, options);
+  const output = await prettier.format(input, options);
   await new Promise((resolve, reject) => {
     fs.mkdir(path.dirname(destination), { recursive: true }, err => {
       if (err) {
