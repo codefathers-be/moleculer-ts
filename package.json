@@ -19,7 +19,8 @@
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "build": "tsc && ts-node copy-templates.ts"
+    "build": "tsc && ts-node copy-templates.ts",
+    "prepare": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -35,7 +36,7 @@
     "@types/node": "^12.12.5",
     "@types/prettier": "^1.18.3",
     "@types/shelljs": "^0.8.6",
-    "prettier": "^1.18.2",
+    "prettier": "1.18.2",
     "shelljs": "^0.8.3",
     "ts-node": "^8.4.1",
     "ts-patch": "^1.0.2",
