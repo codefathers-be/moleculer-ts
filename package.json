@@ -19,8 +19,7 @@
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "build": "tsc && ts-node copy-templates.ts",
-    "prepare": "npm run build"
+    "build": "tsc && ts-node copy-templates.ts"
   },
   "author": "",
   "license": "ISC",
