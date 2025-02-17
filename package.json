@@ -8,10 +8,10 @@
     "typescript",
     "ts"
   ],
-  "homepage": "https://github.com/jarvify/moleculer-ts",
+  "homepage": "https://github.com/codefathers-be/moleculer-ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jarvify/moleculer-ts"
+    "url": "https://github.com/codefathers-be/moleculer-ts"
   },
   "main": "dist/index.js",
   "directories": {
